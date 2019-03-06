@@ -1,0 +1,25 @@
+logs/
+${sys:catalina.base}/
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.DS_Store
+.settings/
+bin/
+.classpath
+.project
+.*
+!/.gitignore
+*.iml
+*.ipr
+*.iws
+sie-controller/src/main/webapp/node_modules/
+.vscode
+# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
+!/.mvn/wrapper/maven-wrapper.jar
