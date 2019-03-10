@@ -5,9 +5,10 @@ public class WorkshopException extends RuntimeException {
 	private Integer httpCode;
 	private String errorMessage;
 
-	public WorkshopException(Integer code, String errorMessage) {
+	public WorkshopException(Integer code, Integer httpCode, String errorMessage) {
 		super();
 		this.code = code;
+		this.httpCode = httpCode;
 		this.errorMessage = errorMessage;
 	}
 

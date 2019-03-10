@@ -1,4 +1,4 @@
-package com.flairstech.workshop.model;
+package com.flairstech.workshop.model.entity.country;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import java.io.Serializable;

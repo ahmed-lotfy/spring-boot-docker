@@ -28,7 +28,7 @@ public class RestExceptionHandler extends ResponseEntityExceptionHandler {
 	@ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
 	protected Object handleGeneralExceptions(Exception e, WebRequest request) {
 		WorkshopResponseError responseError = new WorkshopResponseError();
-		responseError.setErrorMessage(e.getMessage());
+		responseError.setErrorMessage(WorkshopExceptionConstant.INTERNAL_ERROR.getDesc());
 		responseError.setCode(WorkshopExceptionConstant.INTERNAL_ERROR.getCode());
 		responseError.setHttpStatusCode(HttpStatus.INTERNAL_SERVER_ERROR.value());
 		return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR.value()).body(responseError);

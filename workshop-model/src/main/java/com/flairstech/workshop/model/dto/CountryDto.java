@@ -2,7 +2,7 @@ package com.flairstech.workshop.model.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.flairstech.workshop.model.Country;
+import com.flairstech.workshop.model.entity.country.Country;
 import java.io.Serializable;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)

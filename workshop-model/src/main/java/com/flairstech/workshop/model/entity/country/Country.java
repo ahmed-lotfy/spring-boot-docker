@@ -1,4 +1,4 @@
-package com.flairstech.workshop.model;
+package com.flairstech.workshop.model.entity.country;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import java.io.Serializable;
@@ -167,7 +167,6 @@ public class Country implements Serializable {
 		this.surfaceArea = surfaceArea;
 	}
 
-	//bi-directional many-to-one association to CountryLanguage
 	@OneToMany(mappedBy = "country")
 	@JsonManagedReference
 	private List<CountryLanguage> countryLanguages;
