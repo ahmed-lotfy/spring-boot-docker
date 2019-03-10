@@ -1,4 +1,4 @@
-#FlairsTech Workshop 1.0
+# FlairsTech Workshop 1.0
 
 ##### To run the application follow the below steps:
 
