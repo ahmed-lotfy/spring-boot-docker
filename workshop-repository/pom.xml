@@ -10,6 +10,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>workshop-repository</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>com.flairstech</groupId>
+            <artifactId>workshop-model</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 
 </project>

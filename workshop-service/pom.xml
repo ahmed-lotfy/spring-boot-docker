@@ -11,5 +11,13 @@
 
     <artifactId>workshop-service</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.flairstech</groupId>
+            <artifactId>workshop-repository</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
 
 </project>
