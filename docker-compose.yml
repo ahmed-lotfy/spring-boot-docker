@@ -1,0 +1,19 @@
+version: '2'
+
+services:
+
+  dbserver:
+    image: ghusta/postgres-world-db:2.3
+    hostname: dbserver
+    ports:
+      - "5434:5432"
+
+  app:
+    image: flairstech/workshop-ws:latest
+    hostname: app
+    depends_on:
+      - dbserver
+    ports:
+      - "9898:9898"
+    links:
+      - dbserver
