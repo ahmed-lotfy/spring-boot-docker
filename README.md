@@ -1,4 +1,4 @@
-# FlairsTech Workshop 1.0
+# Spring Boot Docker
 
 ##### To run the application follow the below steps:
 
